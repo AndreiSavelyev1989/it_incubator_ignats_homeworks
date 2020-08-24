@@ -1,0 +1,58 @@
+.message {
+    display: grid;
+    grid-template-areas:
+     "avatar messageContainer";
+    grid-template-columns: 1fr 1fr;
+    width: 300px;
+    margin-left: 50px;
+    align-items: end;
+}
+
+.message img {
+    width: 80px;
+    height: 80px;
+}
+
+.avatar {
+    grid-area: avatar;
+    padding-left: 80px;
+
+}
+
+.messageContainer {
+    display: grid;
+    grid-area: messageContainer;
+    grid-template-areas:
+    "name name"
+    "messageText time";
+    grid-template-columns: 1fr 50px;
+    border: 2px solid green;
+    border-radius: 10px;
+    align-items: end;
+    width: 300px;
+    height: auto;
+    background: rgba(24,255,33,0.52);
+}
+
+.name {
+    grid-area: name;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.messageText {
+    grid-area: messageText;
+    width: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    overflow: hidden;
+}
+
+.time {
+    grid-area: time;
+    overflow: hidden;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+
+}
