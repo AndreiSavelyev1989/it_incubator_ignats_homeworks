@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/it_incubator_ignats_homeworks/static/css/main.20e19243.chunk.css",
-    "main.js": "/it_incubator_ignats_homeworks/static/js/main.fd880d51.chunk.js",
-    "main.js.map": "/it_incubator_ignats_homeworks/static/js/main.fd880d51.chunk.js.map",
+    "main.css": "/it_incubator_ignats_homeworks/static/css/main.c8295a17.chunk.css",
+    "main.js": "/it_incubator_ignats_homeworks/static/js/main.a0b74a5b.chunk.js",
+    "main.js.map": "/it_incubator_ignats_homeworks/static/js/main.a0b74a5b.chunk.js.map",
     "runtime-main.js": "/it_incubator_ignats_homeworks/static/js/runtime-main.20dd47a7.js",
     "runtime-main.js.map": "/it_incubator_ignats_homeworks/static/js/runtime-main.20dd47a7.js.map",
-    "static/js/2.86d40d7e.chunk.js": "/it_incubator_ignats_homeworks/static/js/2.86d40d7e.chunk.js",
-    "static/js/2.86d40d7e.chunk.js.map": "/it_incubator_ignats_homeworks/static/js/2.86d40d7e.chunk.js.map",
+    "static/js/2.490fbe74.chunk.js": "/it_incubator_ignats_homeworks/static/js/2.490fbe74.chunk.js",
+    "static/js/2.490fbe74.chunk.js.map": "/it_incubator_ignats_homeworks/static/js/2.490fbe74.chunk.js.map",
     "index.html": "/it_incubator_ignats_homeworks/index.html",
-    "precache-manifest.5266ed72d07398299b4f6f16e60205c5.js": "/it_incubator_ignats_homeworks/precache-manifest.5266ed72d07398299b4f6f16e60205c5.js",
+    "precache-manifest.78eee69d499765747c7177432676fc3d.js": "/it_incubator_ignats_homeworks/precache-manifest.78eee69d499765747c7177432676fc3d.js",
     "service-worker.js": "/it_incubator_ignats_homeworks/service-worker.js",
-    "static/css/main.20e19243.chunk.css.map": "/it_incubator_ignats_homeworks/static/css/main.20e19243.chunk.css.map",
-    "static/js/2.86d40d7e.chunk.js.LICENSE.txt": "/it_incubator_ignats_homeworks/static/js/2.86d40d7e.chunk.js.LICENSE.txt",
-    "static/media/messageAvatar.png": "/it_incubator_ignats_homeworks/static/media/messageAvatar.22737a7c.png"
+    "static/css/main.c8295a17.chunk.css.map": "/it_incubator_ignats_homeworks/static/css/main.c8295a17.chunk.css.map",
+    "static/js/2.490fbe74.chunk.js.LICENSE.txt": "/it_incubator_ignats_homeworks/static/js/2.490fbe74.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.20dd47a7.js",
-    "static/js/2.86d40d7e.chunk.js",
-    "static/css/main.20e19243.chunk.css",
-    "static/js/main.fd880d51.chunk.js"
+    "static/js/2.490fbe74.chunk.js",
+    "static/css/main.c8295a17.chunk.css",
+    "static/js/main.a0b74a5b.chunk.js"
   ]
 }
