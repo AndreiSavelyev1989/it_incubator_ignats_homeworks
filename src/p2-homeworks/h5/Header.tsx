@@ -1,10 +1,11 @@
 import React from "react";
+import {Navbar} from "./Navbar";
+import style from "./Header.module.css"
 
 function Header() {
     return (
-        <div>
-            // add NavLinks
-
+        <div className={style.headerBlock}>
+            <Navbar/>
         </div>
     );
 }

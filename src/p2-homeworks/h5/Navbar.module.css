@@ -1,0 +1,20 @@
+.navbarBlock {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.navbarBlock a {
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+}
+
+.navbarBlock a:hover {
+    color: #e9a92f;
+    transition: 0.3s;
+}
+
+.navbarBlock a.active {
+    color: #3ce53c;
+}
