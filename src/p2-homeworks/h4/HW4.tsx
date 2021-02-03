@@ -12,11 +12,13 @@ function HW4() {
             alert("введите текст...");
         } else {
             alert(text); // если нет ошибки показать текст
+            setText("")
         }
     }
 
     const [checked, setChecked] = useState<boolean>(false);
-    const testOnChange = (e: ChangeEvent<HTMLInputElement>) => setChecked(e.currentTarget.checked);
+    const [checked2, setChecked2] = useState<boolean>(false);
+    const testOnChange = (e: ChangeEvent<HTMLInputElement>) => setChecked2(e.currentTarget.checked);
 
     return (
         <div>
@@ -30,13 +32,15 @@ function HW4() {
                     onChangeText={setText}
                     onEnter={showAlert}
                     error={error}
-                    // className={s.blue} // проверьте, рабоет ли смешивание классов
+                    className={error ? s.blue : s.orange} // проверьте, рабоет ли смешивание классов
                 />
 
                 {/*should work (должно работать)*/}
                 <SuperButton
                     red // пропсу с булевым значением не обязательно указывать true
                     onClick={showAlert}
+                    error={error}
+                    className={error ? s.blue : s.orange}
                 >
                     delete {/*// название кнопки попадёт в children*/}
                 </SuperButton>
@@ -50,7 +54,8 @@ function HW4() {
                 </SuperCheckbox>
 
                 {/*// onChange тоже должен работать*/}
-                <SuperCheckbox checked={checked} onChange={testOnChange}/>
+                <SuperCheckbox checked={checked2}
+                               onChange={testOnChange}/>
             </div>
 
             <hr/>

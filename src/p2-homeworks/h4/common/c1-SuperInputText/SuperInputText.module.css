@@ -1,5 +1,11 @@
-.superInput {
+input, button :active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
 
+.superInput {
+    background: greenyellow;
+    border: 3px solid green;
 }
 
 .errorInput {
@@ -9,4 +15,8 @@
 
 .error {
     color: red;
+}
+
+.spanClassName {
+    background: greenyellow;
 }

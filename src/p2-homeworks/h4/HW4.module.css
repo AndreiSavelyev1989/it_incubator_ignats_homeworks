@@ -2,6 +2,10 @@
     border-bottom: 5px solid blue;
 }
 
+.orange{
+    border-bottom: 5px solid orange;
+}
+
 .column {
     display: flex;
     flex-direction: column;

@@ -1,8 +1,10 @@
 import React from "react";
 import Message from "./Message";
+import AlternativeMessage from "./AlternativeMessage";
+import messageAvatar from "../../images/messageAvatar.png"
 
 const messageData = {
-    avatar: "https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg",
+    avatar: messageAvatar,
     name: "Some Name",
     message: "What is Lorem Ipsum?\n" +
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. " +
@@ -30,7 +32,7 @@ function HW1() {
 
             <hr/>
             {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeMessage/>*/}
+            <AlternativeMessage/>
             <hr/>
         </div>
     );
